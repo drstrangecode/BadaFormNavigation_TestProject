@@ -5,8 +5,9 @@
 #include <FUi.h>
 
 #include "Forms/FormNavigationManager.h"
+#include "Forms/StackBasedNavigationForm.h"
 
-class Form1 : public DSBadaUtilityLib::IStackBasedNavigationForm,
+class Form1 : public DSBadaUtilityLib::StackBasedNavigationForm,
               public Osp::Ui::IActionEventListener
 {
 
