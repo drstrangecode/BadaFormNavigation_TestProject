@@ -21,6 +21,8 @@ bool Form1::Initialize() {
 result Form1::OnInitializing(void) {
     result r = E_SUCCESS;
 
+    AppLog("Form1::OnInitializing()");
+
     __pButtonPrev = static_cast<Button *> (GetControl(L"IDC_BUTTON_PREV"));
     if (__pButtonPrev != null)
     {

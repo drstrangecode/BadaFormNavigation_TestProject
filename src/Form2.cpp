@@ -20,6 +20,8 @@ bool Form2::Initialize() {
 result Form2::OnInitializing(void) {
     result r = E_SUCCESS;
 
+    AppLog("Form2::OnInitializing()");
+
     __pButtonPrev = static_cast<Button *> (GetControl(L"IDC_BUTTON_PREV"));
     if (__pButtonPrev != null)
     {
